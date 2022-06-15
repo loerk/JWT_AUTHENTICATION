@@ -1,10 +1,10 @@
 const express = require("express");
 require("dotenv").config();
 
-const router = require("./routes/router");
+const router = require("./routes/authRouter");
 
 const app = express();
-const PORT = process.env.SERVER_PORT;
+const PORT = process.env.AUTH_SERVER_PORT;
 
 app.use(express.json());
 

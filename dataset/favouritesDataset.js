@@ -1,11 +1,11 @@
 const favourites = [
   {
     username: "Hugo",
-    favourite: "Ricotta Noodles",
+    favourite: "Peppermint",
   },
   {
     username: "Alice",
-    favourite: "Masala Dosai",
+    favourite: "Masala",
   },
 ];
 

@@ -1,10 +1,18 @@
-GET http://localhost:3001/api/favourites
-Authorization: Bearer 
+GET http://localhost:3001/favourites
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSHVnbyIsImlhdCI6MTY1NTMxODc3MSwiZXhwIjoxNjU1MzE4ODAxfQ.9c13s_02zLPqL4DdIrOLzlaHJIY7bYdZlfvRhdaVchM
 ###
 
-POST http://localhost:3001/api/login
+POST http://localhost:4001/login
 Content-Type: application/json
 
 {
     "username":"Hugo"
+}
+
+###
+POST http://localhost:4001/token
+Content-Type: application/json
+
+{
+    "token":""
 }
